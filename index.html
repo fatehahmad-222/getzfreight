@@ -401,6 +401,22 @@
   }
   .contact-copy h2{font-size:clamp(30px,3.8vw,46px);}
   .contact-copy p{margin-top:20px; font-size:16px; color:var(--gray); max-width:400px;}
+  .contact-lines{
+    margin-top:24px;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    font-size:15px;
+  }
+  .contact-lines a{
+    color:var(--black);
+    font-weight:600;
+    text-decoration:none;
+    border-bottom:1px solid var(--line);
+    width:fit-content;
+  }
+  .contact-lines a:hover{color:var(--yellow-deep);}
+  .contact-lines span{color:var(--gray);}
   .contact-card{
     background:var(--white);
     border:1px solid var(--line);
@@ -690,8 +706,13 @@
       <div class="rule"></div>
       <h2>Ready to ship with Getz Freight?</h2>
       <p>Tell us about your load and lane. We'll get back to you with a quote and a straight answer on timing.</p>
+      <div class="contact-lines">
+        <a href="tel:+13072010049">(307) 201-0049</a>
+        <a href="mailto:Sales@getzfreight.com">Sales@getzfreight.com</a>
+        <span>312 W. 2nd St, Casper, WY 82601</span>
+      </div>
     </div>
-    <form class="contact-card" action="mailto:dispatch@getzfreight.com" method="post" enctype="text/plain">
+    <form class="contact-card" action="mailto:Sales@getzfreight.com" method="post" enctype="text/plain">
       <div class="form-row">
         <div class="field">
           <label for="name">Full name</label>
@@ -744,8 +765,9 @@
       </div>
       <div class="footer-col">
         <h5>Contact</h5>
-        <a href="mailto:dispatch@getzfreight.com">dispatch@getzfreight.com</a>
-        <a href="tel:+18005550143">1-800-555-0143</a>
+        <a href="mailto:Sales@getzfreight.com">Sales@getzfreight.com</a>
+        <a href="tel:+13072010049">(307) 201-0049</a>
+        <a href="https://maps.google.com/?q=312+W.+2nd+St,+Casper,+WY+82601" target="_blank" rel="noopener">312 W. 2nd St, Casper, WY 82601</a>
       </div>
     </div>
     <div class="footer-bottom">
